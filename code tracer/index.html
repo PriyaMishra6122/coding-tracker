@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Coding Practice Tracker</h1>
+    <form id="problemForm">
+       <input type="text" id="name" placeholder="Problem Name" required> 
+       <select name="" id="difficuilty">
+        <option value="Esay">Easy</option>
+        <option value="Medium">Medium</option>
+        <option value="difficult">Difficult</option>
+       </select>
+       <select name="" id="platform">
+        <option value="LeetCode">LeetCode</option>
+        <option value="GFG">GFG</option>
+       </select>
+       <button type="submit">Add</button>
+       </form>
+       <p id="emptyMsg">No problems added yet</p>
+       <ul id ="list"></ul>
+     
+    </div>
+    
+   <script src="script.js"></script>
+</body>
+</html>
