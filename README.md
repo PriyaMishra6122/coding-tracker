@@ -12,6 +12,8 @@ A simple and user-friendly web application to track daily coding practice and im
 - HTML
 - CSS
 - JavaScript
+## 📸 Preview
+![App Screenshot](screenshot.png)  
 
 ## ▶️ How to Run
 1. Download or clone the repository
